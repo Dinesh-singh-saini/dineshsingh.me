@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dinesh Singh Saini</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+  <link rel="shortcut icon" href="about.jpg" type="image/x-icon">
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Dinesh Singh Saini</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Dinesh Singh Saini</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="about.jpg" alt="Dinesh_singh_saini_profile"
+        style="border-radius: 50%;" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Namste!, I'm</p>
+      <h1 class="title">Dinesh Singh Saini</h1>
+      <p class="section__text__p2">Web, App, and Software Developer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./myCV')">
+          Download CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="linkedin.svg" height="40" width="40"
+          style="max-width: 100%;" alt="My LinkedIn profile" class="icon"
+          onclick="location.href='https://linkedin.com/'" />
+        <img src="github.png" alt="My Github profile"
+          height="33" width="33" style="max-width: 100%;"
+          onclick="location.href='https://github.com/Dinesh-singh-saini'" />
+      </div>
+      <p class="section__text__p2" style="font-size: medium; margin-top: 2vh ;">TO know more! visit Github or linkedin.</p>
+      <!-- <h2>TO know more visit Github or linkedin</h2> -->
+    </div>
+  </section>
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h3 class="title">About Me</h3>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img class="about-pic" src="profile.jpg"
+          alt="Dinesh_singh_saini_profile" style="border-radius: 7%;" />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="cap.svg" width="50" height="50"
+              alt="Education icon" class="icon" />
+            <h3>Education</h3>
+            <p>Diploma in<br />Computer Science and Engneering</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            Hi there! A computer science engineer with expertise in HTML, CSS, JavaScript, C,
+            C++, and Kotlin. I have great leadership abilities and solve problems really well. In addition, I have a
+            strategic mentality for digital marketing and strive to provide creative solutions. My portfolio includes a
+            wide variety of projects that demonstrate my expertise. My enthusiasm for creativity and teamwork fuels my
+            never-ending search for fresh obstacles to conquer. Let's talk about how I can use my experience and
+            commitment to quality to help your initiatives.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Tech Skills</h2>
+          <div class="article-container">
+            <article>
+              <img
+                src="html.svg"
+                alt="html" width="40" height="40" style="max-width: 100%;">
+              <div>
+                <h3>HTML</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="css.svg"
+                alt="css3" width="40" height="40" style="max-width: 100%;">
+              <div>
+                <h3>CSS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="c.svg" alt="c"
+                width="40" height="40" />
+              <div>
+                <h3>C</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="js.png"
+                height="40" alt="Experience icon" class="icon" />
+              <div>
+                <h3>JavaScript</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="c++.svg"
+                alt="cplusplus" width="40" height="40" style="max-width: 100%;">
+              <div>
+                <h3>C++</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="kotlin.png"
+                width="40" height="40" style="max-width: 100%;" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Kotlin</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="dsa.png"
+                width="40" height="40" style="max-width: 100%;" alt="Experience icon" class="icon" />
+              <div>
+                <h3>DSA</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="sql.svg" alt="mssql" width="40"
+                height="40" />
+              <div>
+                <h3>SQL</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="aws.svg"
+                alt="aws" width="40" height="40" />
+              <div>
+                <h3>AWS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="linux.png"
+                alt="Experience icon" class="icon" />
+              <div>
+                <h3>Linux</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Soft and Other Skills</h2>
+          <p style="text-align:left; color: #000;"><b>Soft Skills: </b>Exceptional interpersonal abilities, adept at
+            communication, collaboration, and fostering positive relationships within teams.
+
+            <br><b>Team Leadership:</b> Proven ability to lead and motivate teams towards achieving common goals,
+            fostering a culture of collaboration and innovation.
+
+            <br><b>Management:</b> Proficient in effectively organizing resources, delegating tasks, and overseeing
+            projects to ensure timely delivery and high-quality outcomes.
+
+            <br><b>Digital Marketing:</b> Skilled in utilizing various digital platforms and tools to create and
+            implement strategic marketing campaigns, driving engagement and conversion.
+
+            <br><b>Problem Solving:</b> Strong analytical skills coupled with a creative mindset, capable of identifying
+            issues, developing innovative solutions, and implementing effective problem-solving strategies.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="Restaurant Bill Manage System.jpg"
+              alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Restaurant Bill Manage System</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/Dinesh-singh-saini/Restaurant-Billing-System'">
+              Github
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="Event Booking Management System.jpg" alt="Project 2"
+              class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Event Booking Management System </h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/Dinesh-singh-saini/Event-Booking-Management-System'">
+              Github
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="own web page.png"
+              alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Own Portfolio Web</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Github
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="mail.svg" height="33" width="33" alt="Email icon"
+          class="icon contact-icon email-icon" />
+        <p><a href="mailto:dineshkumar623092@gmail.com">Mail</a></p>
+      </div>
+
+      <div class="contact-info-container">
+        <img src="linkedin.svg" height="45" width="45" alt="LinkedIn icon"
+          class="icon contact-icon" />
+        <p style="margin-right: 4%;"><a href="https://www.linkedin.com">LinkedIn</a></p>
+      </div>
+    
+      <div class="contact-info-container">
+        <img src="whatsapp.svg" style="border-radius: 50%;" alt="LinkedIn icon"
+          class="icon contact-icon" />
+        <p><a href="https://wa.me/+916230924908" >whatsapp</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <hr>
+    <hr>
+    <p>Copyright &#169; 2024 Dinesh Singh Saini .All Rights Reserved.</p>
+    <hr>
+    <hr>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
