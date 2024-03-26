@@ -26,4 +26,4 @@ Contributions are welcome! If you find any bugs or want to suggest improvements,
 
 ## License
 
-This project is licensed under the [MIT License]()
+This project is licensed under the [MIT License](https://github.com/Dinesh-singh-saini/my-web-portfolio/blob/main/LICENSE)
