@@ -12,6 +12,6 @@ document.getElementById('main').style.display = 'none';
   document.getElementById('main').style.display = 'block';
 }
 // Disable right-clicking on the webpage
-document.addEventListener('contextmenu', function(event) {
-  event.preventDefault();
-});
+//document.addEventListener('contextmenu', function(event) {
+  //event.preventDefault();
+//});
