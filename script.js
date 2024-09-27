@@ -1,18 +1,18 @@
 /* ---------------------On click nav bar function ---------------- */
 
 function toggleNavbar() {
-  var navbar = document.getElementById('hiddenNavbar');
-  navbar.classList.toggle('show'); // Toggle the 'show' class
+    const navbar = document.getElementById('hiddenNavbar');
+    navbar.classList.toggle('show'); // Toggle the 'show' class
 }
 // Get all the links in the hidden navbar options
-var hiddenNavbarOptions = document.querySelectorAll('.hidden-navbar-options a');
+const hiddenNavbarOptions = document.querySelectorAll('.hidden-navbar-options a');
 
 // Add a click event listener to each link
-for (var i = 0; i < hiddenNavbarOptions.length; i++) {
+for (let i = 0; i < hiddenNavbarOptions.length; i++) {
   hiddenNavbarOptions[i].addEventListener('click', function () {
     // Hide the hidden navbar when a link is clicked
-    var navbar = document.getElementById('hiddenNavbar');
-    navbar.classList.remove('show');
+      const navbar = document.getElementById('hiddenNavbar');
+      navbar.classList.remove('show');
   });
 }
 
@@ -30,14 +30,13 @@ checkbox2.addEventListener("change", () => {
 });
 
 /*-------------------------------TYPING EFFECT----------------------------*/
-let typingEffect = new Typed(".typedText", {
-  strings: ["App Developer","Software Developer", "Designer"],
-  loop: true,
-  typeSpeed: 100,
-  backSpeed: 80,
-  backDelay: 3000
-})
-
+new Typed(".typedText", {
+    strings: ["App Developer","Software Developer", "AWS Administrator"],
+    loop: true,
+    typeSpeed: 100,
+    backSpeed: 80,
+    backDelay: 3000
+});
 /* ----------------------CHANGE ACTIVE LINK---------------------- */
 
 const sections = document.querySelectorAll('section[id]')

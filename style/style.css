@@ -171,7 +171,7 @@ footer {
         align-items: center;
     }
 
-    .navcvbtn {
+    .nav_cv_btn {
         display: none;
     }
 
@@ -185,7 +185,7 @@ footer {
         justify-content: center;
     }
 
-    .myimage {
+    .my_image {
         width: 300px;
     }
 
@@ -195,7 +195,7 @@ footer {
         align-items: center;
     }
 
-    .typedtext {
+    .typed_text {
         text-align: center;
         font-size: 30px;
     }
@@ -221,7 +221,7 @@ footer {
 }
 
 @media only screen and (max-width: 790px) {
-    .menulines {
+    .menu_lines {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -258,7 +258,7 @@ footer {
         justify-content: center;
     }
 
-    .myimage {
+    .my_image {
         width: 300px;
     }
 
@@ -268,7 +268,7 @@ footer {
         align-items: center;
     }
 
-    .typedtext {
+    .typed_text {
         text-align: center;
         font-size: 30px;
     }
@@ -307,7 +307,7 @@ footer {
         display: none;
     }
 
-    .aboutme {
+    .about_me {
         font-weight: 500;
         text-align: start;
     }

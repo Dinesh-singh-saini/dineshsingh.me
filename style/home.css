@@ -29,7 +29,7 @@ flex-direction: column;
     color: var(--primary-color);
 }
 
-.myimage {
+.my_image {
     width: 400px;
     border-radius: 50%;
     box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.25);
@@ -51,20 +51,20 @@ flex-direction: column;
     align-items: center;
 }
 
-.typedtext {
+.typed_text {
     text-align: center;
     font-size: 50px;
     font-weight: 600;
     color: var(--secondary-color);
     margin-block: 20px;
 }
-.aboutme {
+.about_me {
     font-size: 15px;
     margin-bottom: 30px;
 }
 
 /* ----------home page buttons----------- */
-.hireme-btn {
+.hire_me_btn {
     margin-right: 10px;
     color: var(--color-white);
     cursor: pointer;
@@ -76,7 +76,7 @@ flex-direction: column;
     transition: all ease 0.3s;
 }
 
-.hireme-btn a {
+.hire_me_btn a {
     text-decoration: none;
     color: var(--color-white);
 }

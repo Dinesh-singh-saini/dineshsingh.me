@@ -41,7 +41,7 @@ nav {
 .active-link {
     position: relative;
     color: var(--primary-color);
-    transition: .3;
+    transition: .3s;
 }
 
 .active-link::after {
@@ -73,16 +73,16 @@ nav {
     transition: all ease 0.3s;
 }
 
-.nav-button:hover .navcvbtn {
+.nav-button:hover .nav_cv_btn {
     color: var(--color-white);
     background-color: var(--primary-color);
 }
 
-.menulines {
+.menu_lines {
     display: none;
 }
 
-.menulinebtn {
+.menu_line_btn {
     cursor: pointer;
     color: var(--color-black);
     background-color: transparent;

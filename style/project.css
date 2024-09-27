@@ -38,7 +38,7 @@
 
 /*--------------- each project ---------------*/
 
-.up-comingproject {
+.completed_projects {
     /* background-color: var(--primary-color); */
     /* margin-block: 10px; */
     justify-content: center;
@@ -53,7 +53,7 @@
     border-radius: 10px;
 }
 
-.bgcard {
+.bg_card {
     position: relative;
     width: 230px;
     height: 295px;
@@ -69,7 +69,7 @@
     color: #000000;
 }
 
-.bgcard::after {
+.bg_card::after {
     content: "";
     z-index: -1;
     position: absolute;
@@ -147,7 +147,7 @@
     transform: scale(1.1);
 }
 
-.tapbuttons {
+.tap_buttons {
     margin-block: 15px;
 }
 
