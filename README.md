@@ -4,7 +4,7 @@ This is the source code for my personal portfolio website, showcasing my project
 
 ## Live Demo
 
-You can view the live version of the website [here](https://d-s.netlify.app/)
+You can view the live version of the website. - [Click here to check out!](https://dineshsingh.me/)
 
 ## Features
 
