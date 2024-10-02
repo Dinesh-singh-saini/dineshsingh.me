@@ -138,3 +138,11 @@ document.addEventListener('DOMContentLoaded', function () {
       });
   });
 });
+
+var animation = lottie.loadAnimation({
+    container: document.getElementById('lottie-animation'),
+    renderer: 'svg', // rendering type
+    loop: true, // set to true for looping animation
+    autoplay: true, // set to true to autoplay
+    path: 'Assets/animations/404-lottie.json' // path to your Lottie JSON file
+});
