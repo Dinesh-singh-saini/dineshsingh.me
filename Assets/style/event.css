@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #00000d;
+}
+h1{
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.events-section {
+    padding: 45px 20px 20px 20px;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    width: auto;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 0 20px 5px rgba(103, 103, 103, 0.25);
+    border: 1px solid #4600c6;
+    border-radius: 10px;
+    margin: 10px;
+    color: white;
+    text-align: justify;
+    height: fit-content;
+    padding: 45px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-white);
+}
+.card:hover {
+    background-color: #000808;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+@media (min-width: 500px) {
+    .card {
+        width: 65%;
+    }
+}
+.tap-btn{
+    margin-block: 15px;
+}
+
+.register{
+    color: var(--white--);
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 8px 20px 8px 20px;
+    background-color: #ec1515;
+    transition: all ease 0.3s;
+}
+.register:hover {
+    padding: 8px 30px 8px 30px;
+    background-color: #00b400;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0f0f1c;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
