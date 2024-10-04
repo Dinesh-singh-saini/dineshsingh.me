@@ -2,39 +2,29 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-          content="Events conducted by Dinesh Singh Saini">
+    <meta name="description" content="Events conducted by Dinesh Singh Saini">
     <title>Dinesh Singh Saini</title>
 
     <meta property="og:title" content="Dinesh Singh Saini - Events">
-    <meta property="og:description"
-          content="Events conducted by Dinesh Singh Saini.">
+    <meta property="og:description" content="Events conducted by Dinesh Singh Saini.">
     <meta property="og:image" content="images/meta_logo.png">
     <meta property="og:url" content="https://www.dineshsingh.me">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Dinesh Singh Saini - Portfolio">
-    <meta name="twitter:description"
-          content="Events conducted by Dinesh Singh Saini.">
+    <meta name="twitter:description" content="Events conducted by Dinesh Singh Saini.">
     <meta name="twitter:image" content="images/meta_logo.png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-            rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-          integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="Assets/style/navbar.css">
     <link rel="stylesheet" href="Assets/style/event.css">
-
     <link rel="stylesheet" href="Assets/style/style.css">
     <link rel="shortcut icon" href="Assets/images/meta_logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 </head>
 
 <body>
@@ -44,15 +34,10 @@
             <p class="nav-name">Events</p>
         </div>
         <ul class="nav-bar">
-            <li class="nav-section "><a href="index.html/#home"
-                                        class="nav-link active-link">Home</a></li>
-            <li class="nav-section  "><a href="#"
-                                         class="nav-link">Events</a>
-            <li class="nav-section  "><a href="index.html/#contact"
-                                         class="nav-link">Contact</a>
-            </li>
+            <li class="nav-section"><a href="index.html/#home" class="nav-link active-link">Home</a></li>
+            <li class="nav-section"><a href="#" class="nav-link">Events</a></li>
+            <li class="nav-section"><a href="index.html/#contact" class="nav-link">Contact</a></li>
         </ul>
-
         <div class="menu_lines">
             <button class="menu_line_btn" aria-label="menu button" onclick="toggleNavbar()">
                 <i class="fa-solid fa-bars"></i>
@@ -60,43 +45,37 @@
         </div>
     </nav>
 </header>
+
 <main class="wrapper">
-
-    <div class="hidden-navbar" id="hiddenNavbar">
-        <ul class="hidden-navbar-options">
-            <li><i class="fa-solid fa-house"></i><a href="https://dineshsingh.me/#home" class="nav-link active_link">Home</a></li>
-            <li><i class="fa-solid fa-evernote"></i><a href="#" class="nav-link">Events</a>
-            </li>
-            <li><i class="fa-solid fa-envelope"></i><a href="https://dineshsingh.me/#contact" class="nav-link">Contact</a>
-            </li>
-
-        </ul>
-    </div>
-
     <section class="events-section">
-
         <h2>Upcoming Workshops</h2>
         <div class="cards-container">
             <div class="card">
                 <img src="Assets/events/full_deployment.jpg" alt="Workshop 2">
                 <div class="tap-btn">
-                    <a class="register" href="https://forms.gle/4XqAHZMM5S3RwBJF7">Register Now</a>
+                    <button class="register" onclick="showRegisterForm()">Register Now</button>
                 </div>
             </div>
+            <iframe id="googleForm" src="https://docs.google.com/forms/d/e/1FAIpQLScFZuqy7G9TcsXg7QRGBySSXvxAAzKwlhcMzlGrCR6DQ0jLGA/viewform?embedded=true" width="100%" height="1000" frameborder="0" marginheight="0" marginwidth="0" style="display: none;">Loading…</iframe>
         </div>
     </section>
 </main>
+
 <footer>
     <div class="bottom-footer">
         <p>Copyright &copy;<a href="https://github.com/Dinesh-singh-saini" style="text-decoration: none;">Dinesh Singh
             Saini</a> - All
-            rights reserved. <a href="Assets/policies/privacy_policy.html" style="font-size: x-small"> privacy
-                policy</a>
+            rights reserved. <a href="Assets/policies/privacy_policy.html" style="font-size: x-small">privacy policy</a>
         </p>
     </div>
 </footer>
 
-<script src="Assets/js/main.js"></script>
+<script>
+    function showRegisterForm() {
+        document.getElementById('googleForm').style.display = 'block';
+    }
+
+</script>
 </body>
 
 </html>
