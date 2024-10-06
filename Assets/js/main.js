@@ -146,3 +146,7 @@ var animation = lottie.loadAnimation({
     autoplay: true, // set to true to autoplay
     path: 'Assets/animations/404-lottie.json' // path to your Lottie JSON file
 });
+
+// function showRegisterForm() {
+//     document.getElementById('googleForm').style.display = 'block';
+// }

@@ -68,7 +68,7 @@ nav ul li a {
 }
 @media (min-width: 500px) {
     .card {
-        width: 65%;
+        width: 55%;
     }
 }
 .tap-btn{
@@ -76,15 +76,29 @@ nav ul li a {
 }
 
 .register{
+    margin-top: 10px;
     color: var(--white--);
     text-decoration: none;
     border-radius: 25px;
-    padding: 8px 20px 8px 20px;
+    padding: 6px 18px 6px 18px;
     background-color: #ec1515;
     transition: all ease 0.3s;
 }
+.details{
+    margin-top: 10px;
+    color: var(--white--);
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 6px 18px 6px 18px;
+    background-color: #4600c6;
+    transition: all ease 0.3s;
+}
 .register:hover {
-    padding: 8px 30px 8px 30px;
+    padding: 8px 25px 8px 25px;
+    background-color: #00b400;
+}
+.details:hover {
+    padding: 8px 25px 8px 25px;
     background-color: #00b400;
 }
 
@@ -99,3 +113,6 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+
+

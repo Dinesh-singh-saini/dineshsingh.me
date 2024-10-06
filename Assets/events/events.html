@@ -21,21 +21,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="Assets/style/navbar.css">
-    <link rel="stylesheet" href="Assets/style/event.css">
-    <link rel="stylesheet" href="Assets/style/style.css">
-    <link rel="shortcut icon" href="Assets/images/meta_logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/Assets/style/navbar.css">
+    <link rel="stylesheet" href="/Assets/style/event.css">
+    <link rel="stylesheet" href="/Assets/style/style.css">
+    <link rel="shortcut icon" href="/Assets/images/meta_logo.png" type="image/x-icon">
 </head>
 
 <body>
 <header>
     <nav>
         <div class="nav-logo">
-            <p class="nav-name">Register</p>
+            <p class="nav-name">Events</p>
         </div>
         <ul class="nav-bar">
-            <li class="nav-section"><a href="https://dineshsingh.me,#home" class="nav-link active-link">Home</a></li>
-            <li class="nav-section"><a href="/Assets/events/events.html" class="nav-link">Events</a></li>
+            <li class="nav-section"><a href="https://dineshsingh.me/#home" class="nav-link active-link">Home</a></li>
+            <li class="nav-section"><a href="/register.html" class="nav-link">Register</a></li>
             <li class="nav-section"><a href="https://dineshsingh.me/#contact" class="nav-link">Contact</a></li>
         </ul>
         <div class="menu_lines">
@@ -49,14 +49,23 @@
     <div class="hidden-navbar" id="hiddenNavbar">
         <ul class="hidden-navbar-options">
             <li><i class="fa-solid fa-house"></i><a href="https://dineshsingh.me" class="nav-link active_link">Home</a></li>
-            <li><i class="fa-solid fa-evernote"></i><a href="/Assets/events/events.html" class="nav-link active_link">Events</a></li>
+            <li><i class="fa-solid fa-evernote"></i><a href="/register.html" class="nav-link active_link">Register</a></li>
             <li><i class="fa-solid fa-envelope"></i><a href="https://dineshsingh.me/#contact" class="nav-link">Contact</a>
             </li>
 
         </ul>
     </div>
     <section class="events-section">
-            <iframe id="googleForm" src="https://docs.google.com/forms/d/e/1FAIpQLScFZuqy7G9TcsXg7QRGBySSXvxAAzKwlhcMzlGrCR6DQ0jLGA/viewform?embedded=true" width="100%" height="1230" frameborder="0" marginheight="0" marginwidth="0" >Loading…</iframe>
+        <h2>Upcoming Workshops</h2>
+        <div class="cards-container">
+            <div class="card">
+                <img src="/Assets/events/AWS%20workshop.png" alt="AWS Workshop">
+                <a class="register" href="/register.html">Register now</a>
+                <a class="details" href="/Assets/events/aws_workshop.html">Details</a>
+            </div>
+
+            <iframe id="googleForm" src="https://docs.google.com/forms/d/e/1FAIpQLScFZuqy7G9TcsXg7QRGBySSXvxAAzKwlhcMzlGrCR6DQ0jLGA/viewform?embedded=true" width="100%" height="1230" frameborder="0" marginheight="0" marginwidth="0" style="display: none;">Loading…</iframe>
+        </div>
     </section>
 </main>
 
@@ -64,7 +73,7 @@
     <div class="bottom-footer">
         <p>Copyright &copy;<a href="https://github.com/Dinesh-singh-saini" style="text-decoration: none;">Dinesh Singh
             Saini</a> - All
-            rights reserved. <a href="Assets/policies/privacy_policy.html" style="font-size: x-small">privacy policy</a>
+            rights reserved. <a href="/Assets/policies/privacy_policy.html" style="font-size: x-small">privacy policy</a>
         </p>
     </div>
 </footer>

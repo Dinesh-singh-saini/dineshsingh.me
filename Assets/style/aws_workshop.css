@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#about{
+    margin-top: 20px;
+}
+body {
+    font-family: Now, sans-serif;
+    line-height: 1.6;
+    background-color: #000808;
+    color: #ffffff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media (max-width: 500px) {
+    .workshop-name{
+        font-size: small;
+    }
+}
+
+header h1 {
+    font-family: Anton, sans-serif;
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #c48820;
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+.registerBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #0f0f1c;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+

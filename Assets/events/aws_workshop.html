@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Events conducted by Dinesh Singh Saini">
+    <title>Dinesh Singh Saini</title>
+
+    <meta property="og:title" content="Dinesh Singh Saini - Events">
+    <meta property="og:description" content="Events conducted by Dinesh Singh Saini.">
+    <meta property="og:image" content="images/meta_logo.png">
+    <meta property="og:url" content="https://www.dineshsingh.me">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Dinesh Singh Saini - Portfolio">
+    <meta name="twitter:description" content="Events conducted by Dinesh Singh Saini.">
+    <meta name="twitter:image" content="images/meta_logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="/Assets/style/navbar.css">
+    <link rel="stylesheet" href="/Assets/style/event.css">
+    <link rel="stylesheet" href="/Assets/style/style.css">
+    <link rel="stylesheet" href="/Assets/style/aws_workshop.css">
+    <link rel="shortcut icon" href="/Assets/images/meta_logo.png" type="image/x-icon">
+</head>
+
+<body>
+<header>
+    <nav>
+        <div class="nav-logo">
+            <p class="workshop-name">Complete Web Deployment Workshop</p>
+        </div>
+        <ul class="nav-bar">
+            <li class="nav-section"><a href="https://dineshsingh.me" class="nav-link active-link">Home</a></li>
+            <li class="nav-section"><a href="#" class="nav-link">Events</a></li>
+            <li class="nav-section"><a href="https://dineshsingh.me/#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="menu_lines">
+            <button class="menu_line_btn" aria-label="menu button" onclick="toggleNavbar()">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+</header>
+<main class="wrapper">
+    <div class="hidden-navbar" id="hiddenNavbar">
+        <ul class="hidden-navbar-options">
+            <li><i class="fa-solid fa-house"></i><a href="https://dineshsingh.me" class="nav-link active_link">Home</a>
+            </li>
+            <li><i class="fa-solid fa-evernote"></i><a href="/Assets/events/events.html" class="nav-link active_link">Events</a>
+            </li>
+            <li><i class="fa-solid fa-envelope"></i><a href="https://dineshsingh.me/#contact"
+                                                       class="nav-link">Contact</a>
+            </li>
+        </ul>
+    </div>
+
+        <section id="about">
+            <div class="container">
+                <h2>About the Workshop</h2>
+                <p>Are you ready to deploy your website with a custom domain and professional-grade hosting? Join our
+                    <strong>Complete
+                        Web Deployment Workshop</strong> to learn how to take your web projects live using modern tools
+                    like
+                    <strong>AWS</strong>, <strong>GitHub</strong>, and <strong>Namecheap</strong>.</p>
+            </div>
+        </section>
+
+        <section id="learning">
+            <div class="container">
+                <h2>What You'll Learn</h2>
+                <ul>
+                    <li>Set up a custom domain from Namecheap for free (via the GitHub Student Developer Pack).</li>
+                    <li>Deploy static websites using AWS S3 and configure DNS using Amazon Route 53.</li>
+                    <li>Implement SSL/TLS security using AWS Certificate Manager for secure communication.</li>
+                    <li>Automate deployment with AWS CodePipeline, integrating GitHub for continuous updates.</li>
+                    <li>Distribute website content globally using AWS CloudFront for optimized performance.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="bonus">
+            <div class="container">
+                <h2>Bonus: Get a Free Domain</h2>
+                <p>As a special feature of this workshop, you will receive a <strong>free .me domain</strong> from
+                    Namecheap,
+                    courtesy of the GitHub Student Developer Pack. Here's how:</p>
+                <ol>
+                    <li>Apply for GitHub Student Developer Pack by verifying your student status.</li>
+                    <li>Claim your free domain from Namecheap and complete the checkout process at no cost.</li>
+                </ol>
+            </div>
+        </section>
+
+        <section id="technologies">
+            <div class="container">
+                <h2>Technologies Covered</h2>
+                <p>We will be using the following technologies:</p>
+                <ul>
+                    <li>AWS S3</li>
+                    <li>Amazon Route 53</li>
+                    <li>AWS CloudFront</li>
+                    <li>AWS CodePipeline</li>
+                    <li>AWS Certificate Manager</li>
+                    <li>Namecheap for free domain</li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="registerBtn">
+            <button class="register" onclick="showRegisterForm()">Register Now for free</button>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Complete Web Deployment Workshop | All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="/Assets/js/main.js"></script>
+</body>
+
+</html>
